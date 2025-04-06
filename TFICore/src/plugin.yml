@@ -1,0 +1,14 @@
+main: net.teamfekker.tfcore.Main
+name: TFICore
+version: 1.0.0
+api-version: 1.16
+description: TFICore combining core functions of various TF plugins into one.
+authors: [BearTrafalgar, GabeTrafalgar]
+website: www.teamfekker.net
+depend: [Vault]
+
+commands:
+ purgeall:
+  description: Allows the purging of all online players.
+  permission: tfpurger.use
+  usage: /purgeall
